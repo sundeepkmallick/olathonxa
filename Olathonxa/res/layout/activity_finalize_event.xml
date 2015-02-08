@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+<Button 
+    android:id="@+id/ConfirmItenary"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Confirm Itenary"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    />
+<TextView
+    android:id="@+id/itenaryDetails"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:background="#55383838"
+    android:textColor="#FFFFFFFF"
+    android:layout_marginTop="30dp" 
+    />
+</RelativeLayout>
